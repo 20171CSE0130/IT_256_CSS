@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Pseudo before after selection</title>
+<style>
+h1::before
+{
+content:url(index.jpeg);
+}
+h1::after
+{
+content:url(index.jpeg);
+}
+::selection
+{
+color:yellow;
+}
+</style>
+</head>
+<body>
+<h1>This is heading</h1>
+<p>This is content</p>
+</body>
+</html>
